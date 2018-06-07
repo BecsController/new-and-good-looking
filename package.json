@@ -1,0 +1,13 @@
+{
+  "name": "new-and-good-looking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rebdugnz/new-and-good-looking.git",
+  "author": "Rebecca Dugdale <bec.dugdale16@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "jest": "^23.1.0"
+  }
+}
