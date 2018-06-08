@@ -1,7 +1,7 @@
 let express = require('express')
 let router = express.Router()
 let fs = require('fs')
-let fighters = require('./data.json')
+//let fighters = require('./data.json')
 
 //home page
 router.get('/', (req, res) => {
