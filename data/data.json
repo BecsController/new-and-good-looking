@@ -259,7 +259,7 @@
         "Famous Food/Drink": [
           4,
           "Biltong"
-          
+
         ],
         "Nutjob Politician": [
           10,
@@ -344,7 +344,7 @@
         ],
         "Combined Player Height": [
           9,
-          "32.23"
+          "32.23m"
         ],
         "# of Weetbix consumed in one sitting": [
           8,
@@ -359,243 +359,243 @@
     {
       "img": "insertURLhere",
       "id": 13,
-      "name": "name13",
+      "name": "New Zealand 1988 winter olympics Bob sled team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          0,
+          "0"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Combined legs": [
+          4,
+          "18",
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage at olympics": [
+          0,
+          "0%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Agility ranking": [
+          2,
+          "30"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Number of weetbix consumed in single sitting": [
+          6,
+          "54 weetbix"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 14,
-      "name": "name14",
+      "name": "Arsenal",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Fouls last season": [
+          7,
+          "231"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          7,
+          "11.2 million"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage": [
+          5,
+          "50%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Average salary": [
+          7,
+          "$150,000"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          6,
+          "22 legs"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 15,
-      "name": "name15",
+      "name": "Aljona Savchenko and Bruno Massot (ice skating)",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Average revolutions per minute": [
+          9,
+          "300 rpm"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          3,
+          "70,000 (combined)"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage at olympics": [
+          5,
+          "50%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Combined player height": [
+          2,
+          "3.37m"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          4,
+          "4 medals"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 16,
-      "name": "name16",
+      "name": "Croatian mens water polo team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Avgerage length of time able to hold their breath": [
+          5,
+          "3 mins"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Number of swim caps": [
+          8,
+          "Seven swim caps"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage": [
+          7,
+          "65%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          3,
+          "3 medals"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Appeal rating": [
+          3,
+          "3/10"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 17,
-      "name": "name17",
+      "name": "Black sticks womens hockey team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          2,
+          "20,600"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Average velocity": [
+          1,
+          "7 km/h"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Accidental hits with a hockey stick": [
+          7,
+          "115"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Average salary": [
+          2,
+          "$15,000"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Criminal charges in last 5 years": [
+          1,
+          "None"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 18,
-      "name": "name18",
+      "name": "USA Olympic relay team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Number of disqualifications in last 20 years": [
+          9,
+          "Nine!"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          9,
+          "Nine medals"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          7,
+          "16 legs"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Average velocity": [
+          1,
+          "10 km/h"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          4,
+          "280,000"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 19,
-      "name": "name19",
+      "name": "Blues super rugby",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Criminal charges in last 5 years": [
+          9,
+          "Five!"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          5,
+          "93,700"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage": [
+          4,
+          "47%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Number of weetbix consumed in single sitting": [
+          10,
+          "105 weetbix"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Average salary": [
+          7,
+          "$100,000"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 20,
-      "name": "name20",
+      "name": "West indies cricket team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Percentage left handed batters": [
+          3,
+          "34%"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Win percentage": [
+          3,
+          "31%"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Average salary": [
+          9,
+          "$312,000"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          4,
+          "235,000"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Number of times player hit in the head this season": [
+          1,
+          "Three....so far"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 21,
-      "name": "name21",
+      "name": "Red Sox baseball team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          5,
+          "1.2million"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          7,
+          "18 legs"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Number of hall of famers": [
+          4,
+          "36 Hall of famers"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Luck": [
+          2,
+          "2/10"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Theme song ear worm ability": [
+          10
+          "10/10"
         ]
       }
     },
