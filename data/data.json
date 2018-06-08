@@ -1,7 +1,7 @@
 {
   "players": [
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/france.jpg",
       "id": 0,
       "name": "France",
       "properties": {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/america.jpg",
       "id": 1,
       "name": "USA",
       "properties": {
@@ -55,7 +55,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/nz.jpg",
       "id": 2,
       "name": "New Zealand",
       "properties": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/brazil.jpg",
       "id": 3,
       "name": "Brazil",
       "properties": {
@@ -109,7 +109,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/egypt.jpg",
       "id": 4,
       "name": "Egypt",
       "properties": {
@@ -136,7 +136,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/china.jpg",
       "id": 5,
       "name": "China",
       "properties": {
@@ -163,7 +163,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/uk.jpg",
       "id": 6,
       "name": "United Kingdom",
       "properties": {
@@ -190,7 +190,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/jap.jpg",
       "id": 7,
       "name": "Japan",
       "properties": {
@@ -217,7 +217,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/india.jpg",
       "id": 8,
       "name": "India",
       "properties": {
@@ -244,7 +244,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/country/safrica.jpg",
       "id": 9,
       "name": "South Africa",
       "properties": {
@@ -272,7 +272,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/whale.jpeg",
       "id": 10,
       "name": "Airborne Humpback Whale",
       "properties": {
@@ -299,7 +299,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/appcrum.jpeg",
       "id": 11,
       "name": "Half-eaten Apple Crumble",
       "properties": {
@@ -326,7 +326,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/oklahoma.jpg",
       "id": 12,
       "name": "Oklahoma City Thunder",
       "properties": {
