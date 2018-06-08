@@ -11,7 +11,7 @@ for (var i = 0; i < totalPlayers; i++) {
   data.players.push(createBlankPlayer(i))
 }
 
-fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
+// fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
 
 function createBlankPlayer(id) {
   let player = {
