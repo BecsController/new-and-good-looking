@@ -10,11 +10,14 @@ const dataPath = './data/data.json'
 var allData,
     allIDS,
     nextCompetitors,
+    currentTier,
+    currentPlayers,
+    currentMatch,
     players = {
       tierOne: [],
       tierTwo: [],
       tierThree: [],
-      winner: {}
+      winner: []
     },
     tournamentState = {
       tierOne: [0, 0, 0, 0],
@@ -23,10 +26,11 @@ var allData,
     }
 
 
-// refreshData()
-// console.log(getCompetitors());
-// // nextCompetitors = getNextCompetitors()
-// doNextFight();
+refreshData()
+console.log(getCompetitors());
+getNextCompetitors()
+doNextFight();
+console.log(tournamentState);
 
 function refreshData() {
   let raw = fs.readFileSync(dataPath)
@@ -39,30 +43,37 @@ function overwriteData() {
   console.log('writing data');
 }
 
-function getNextCompetitors() {
+function getNextCompetitorIndices() {
   refreshData()
-  let currentTier
-  //  if there are games left at the first tier
+
+  // get current tier
   if (tournamentState.tierOne.includes(0)) currentTier = tournamentState.tierOne
   else if (tournamentState.tierTwo.inclues(0)) currentTier = tournamentState.tierTwo
   else if (tournamentState.tierThree.includes(0)) currentTier = tournamentState.tierThree
 
-  let currentMatch = currentTier.indexOf(0)
+  currentMatch = currentTier.indexOf(0)
   // console.log("Match index is: ",currentMatch);
 
-  let first = players.tierOne[currentMatch*2],
-      second = players.tierOne[currentMatch*2+1]
-  let harrison = [first, second]
+  return [currentMatch*2, currentMatch*2 + 1]
+}
+
+function getPlayersFromIndices(indices) {
+  return indices.map(e => currentPlayers[e])
+}
+
+function getNextCompetitors() {
+  let indices = getNextCompetitorIndices()
+  nextCompetitors = getPlayersFromIndices(indices)
   // console.log(harrison[0].id, " ", harrison[1].id);
-  return harrison
+  return nextCompetitors
 }
 
 function doNextFight() {
-  let harrison = getNextCompetitors()
-  let {winner, clashes} = fightLogic.fight(harrison)
+  let {winner, clashes} = fightLogic.fight(nextCompetitors)
 
   // alter tournamentState
-  if (winner == harrison[0])
+  if (winner == nextCompetitors[0]) currentTier[currentMatch] = 1
+  else currentTier[currentMatch] = 2
 
   return {
     winner,
@@ -81,6 +92,7 @@ function getCompetitors() {
   let arrOfPlayers = getPlayersFromIDs(arrOfIDs)
 
   players.tierOne = arrOfPlayers
+  currentPlayers = arrOfPlayers // shallow coy
 
   return arrOfPlayers
 
