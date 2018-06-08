@@ -274,81 +274,85 @@
     {
       "img": "insertURLhere",
       "id": 10,
-      "name": "name10",
+      "name": "Airborne Humpback Whale",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Weight in KGs": [
+          9,
+          "36,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Jumping Ability": [
+          8,
+          "40-50 feet, 12-15m"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Blowhole Power": [
+          5,
+          "3000 Newtons"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Skin Thickness": [
+          2,
+          "20cm"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Longevity": [
+          10,
+          "150 years"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 11,
-      "name": "name11",
+      "name": "Half-eaten Apple Crumble",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Appeal": [
+          10,
+          "1 Million"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Mould Contained": [
+          2,
+          "5cm^2"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Digest Time": [
+          3,
+          "60 Hours"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Fighting Power": [
+          8,
+          "100"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Max range as a projectile": [
+          7,
+          "20m"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 12,
-      "name": "name12",
+      "name": "Oklahoma City Thunder",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Jumping Ability of players": [
+          7,
+          "4ft, 1.2m"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram Followers": [
+          6,
+          "3.4 Million"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win % last Season": [
+          6,
+          "58%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Combined Player Height": [
+          9,
+          "32.23"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "# of Weetbix consumed in one sitting": [
+          8,
+          "96 (full roster), 30 (playing team)"
+        ],
+        "Combined number of legs": [
+          3,
+          "32 (full roster) 10 (playing team)"
         ]
       }
     },
