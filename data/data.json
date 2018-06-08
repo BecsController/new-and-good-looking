@@ -1,578 +1,606 @@
 {
   "players": [
     {
+      "img": "insertURLhere",
       "id": 0,
-      "name": "name0",
+      "name": "France",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          4,
+          "$2,835,000,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          8,
+          "Eiffel Tower"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          10,
+          "Cheese"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          8,
+          "Marine Le Pen"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          "2",
+          "Butterfly - Danyel Gerard"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 1,
-      "name": "name1",
+      "name": "USA",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          8,
+          "$19,390,000,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          8,
+          "Statue of Liberty"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          8,
+          "Hot Dogs"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          10,
+          "Donald J. Trump"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          7,
+          "White Christmas - Bing Crosby"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 2,
-      "name": "name2",
+      "name": "New Zealand",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          2,
+          "$198,520,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          1,
+          "Sky Tower"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          6,
+          "Kiwifruit"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          6,
+          "Winston Peters"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          10,
+          "How Bizarre - OMC"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 3,
-      "name": "name3",
+      "name": "Brazil",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          1,
+          "3,389,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          8,
+          "Christo Redentor"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          "6",
+          "Churrascaria"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          4,
+          "Dilma Rousseff"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          6,
+          "Girl from Ipanema - Tom Jobin"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 4,
-      "name": "name4",
+      "name": "Egypt",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          0,
+          "1,201,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          10,
+          "Pyramid at Giza"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          5,
+          "Fois Gras (?)"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          2,
+          "Tutenkhamun"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          6,
+          "The Bangles - Walk Like an Egyptian"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 5,
-      "name": "name5",
+      "name": "China",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          10,
+          "25,230,000,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          10,
+          "The Great Wall"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          8,
+          "All Chinese Food"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          10,
+          "Chairman Mao"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          7,
+          "Kung Fu Fighting - Carl Douglas"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 6,
-      "name": "name6",
+      "name": "United Kingdom",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          4,
+          "2,914,000,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          6,
+          "Big Ben"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          6,
+          "Tea"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          8,
+          "Nigel Farage"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          8,
+          "Candle In the Wind - Elton John (not the Beatles - I was surprised too)"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 7,
-      "name": "name7",
+      "name": "Japan",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          6,
+          "5,619,000,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          9,
+          "Mount Fuji"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          9,
+          "Sushi"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          3,
+          "Gendo Ikari"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          6,
+          "The Vapors - Turning Japanese"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 8,
-      "name": "name8",
+      "name": "India",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          "7",
+          "10,385,000,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          8,
+          "Taj Mahal"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          7,
+          "Korma"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          5,
+          "Ghandi's Evil Twin"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          5,
+          "Jai Ho - A.R. Rahman"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 9,
-      "name": "name9",
+      "name": "South Africa",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "GDP": [
+          3,
+          "$742,461,000,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Monument": [
+          2,
+          "The Memory of Nelson Mandela"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Famous Food/Drink": [
+          4,
+          "Biltong"
+
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Nutjob Politician": [
+          10,
+          "Everyone who was in favour of Apartheid"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Top Single": [
+          9,
+          "Africa - Toto"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 10,
-      "name": "name10",
+      "name": "Airborne Humpback Whale",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Weight in KGs": [
+          9,
+          "36,000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Jumping Ability": [
+          8,
+          "40-50 feet, 12-15m"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Blowhole Power": [
+          5,
+          "3000 Newtons"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Skin Thickness": [
+          2,
+          "20cm"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Longevity": [
+          10,
+          "150 years"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 11,
-      "name": "name11",
+      "name": "Half-eaten Apple Crumble",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Appeal": [
+          10,
+          "1 Million"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Mould Contained": [
+          2,
+          "5cm^2"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Digest Time": [
+          3,
+          "60 Hours"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Fighting Power": [
+          8,
+          "100"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Max range as a projectile": [
+          7,
+          "20m"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 12,
-      "name": "name12",
+      "name": "Oklahoma City Thunder",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Jumping Ability of players": [
+          7,
+          "4ft, 1.2m"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram Followers": [
+          6,
+          "3.4 Million"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage last Season": [
+          6,
+          "58%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Combined Player Height": [
+          9,
+          "32.23m"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "# of Weetbix consumed in one sitting": [
+          8,
+          "96 (full roster), 30 (playing team)"
+        ],
+        "Combined number of legs": [
+          3,
+          "32 (full roster) 10 (playing team)"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 13,
-      "name": "name13",
+      "name": "New Zealand 1988 winter olympics Bob sled team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          0,
+          "0"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          4,
+          "18",
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage at olympics": [
+          0,
+          "0%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Agility ranking": [
+          2,
+          "30"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "# of weetbix consumed in single sitting": [
+          6,
+          "54 weetbix"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 14,
-      "name": "name14",
+      "name": "Arsenal",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Fouls last season": [
+          7,
+          "231"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          7,
+          "11.2 million"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage": [
+          5,
+          "50%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Average salary": [
+          7,
+          "$150,000"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          6,
+          "22 legs"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 15,
-      "name": "name15",
+      "name": "Aljona Savchenko and Bruno Massot (ice skating)",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Average revolutions per minute": [
+          9,
+          "300 rpm"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          3,
+          "70,000 (combined)"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage at olympics": [
+          5,
+          "50%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Combined player height": [
+          2,
+          "3.37m"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          4,
+          "4 medals"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 16,
-      "name": "name16",
+      "name": "Croatian mens water polo team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Avgerage length of time able to hold their breath": [
+          5,
+          "3 mins"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Number of swim caps": [
+          8,
+          "Seven swim caps"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage": [
+          7,
+          "65%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          3,
+          "3 medals"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Appeal rating": [
+          3,
+          "3/10"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 17,
-      "name": "name17",
+      "name": "Black sticks womens hockey team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          2,
+          "20,600"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Average velocity": [
+          1,
+          "7 km/h"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Accidental hits with a hockey stick": [
+          7,
+          "115"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Average salary": [
+          2,
+          "$15,000"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Criminal charges in last 5 years": [
+          1,
+          "None"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 18,
-      "name": "name18",
+      "name": "USA Olympic relay team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Number of disqualifications in last 20 years": [
+          9,
+          "Nine!"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Number of olympic medals": [
+          9,
+          "Nine medals"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          7,
+          "16 legs"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Average velocity": [
+          1,
+          "10 km/h"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          4,
+          "280,000"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 19,
-      "name": "name19",
+      "name": "Blues super rugby",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Criminal charges in last 5 years": [
+          9,
+          "Five!"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          5,
+          "93,700"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Win percentage": [
+          4,
+          "47%"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "# of weetbix consumed in single sitting": [
+          10,
+          "105 weetbix"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Average salary": [
+          7,
+          "$100,000"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 20,
-      "name": "name20",
+      "name": "West indies cricket team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Percentage left handed batters": [
+          3,
+          "34%"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Win percentage": [
+          3,
+          "31%"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Average salary": [
+          9,
+          "$312,000"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          4,
+          "235,000"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Number of times player hit in the head this season": [
+          1,
+          "Three....so far"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 21,
-      "name": "name21",
+      "name": "Red Sox baseball team",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Instagram followers": [
+          5,
+          "1.2million"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          7,
+          "18 legs"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Number of hall of famers": [
+          4,
+          "36 Hall of famers"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Luck": [
+          2,
+          "2/10"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Theme song ear worm ability": [
+          10
+          "10/10"
         ]
       }
     },
     {
+      "img": "insertURLhere",
       "id": 22,
       "name": "name22",
       "properties": {
@@ -599,6 +627,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 23,
       "name": "name23",
       "properties": {
@@ -625,6 +654,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 24,
       "name": "name24",
       "properties": {
@@ -651,6 +681,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 25,
       "name": "name25",
       "properties": {
@@ -677,6 +708,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 26,
       "name": "name26",
       "properties": {
@@ -703,6 +735,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 27,
       "name": "name27",
       "properties": {
@@ -729,6 +762,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 28,
       "name": "name28",
       "properties": {
@@ -755,6 +789,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 29,
       "name": "name29",
       "properties": {
@@ -781,6 +816,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 30,
       "name": "name30",
       "properties": {
@@ -807,6 +843,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 31,
       "name": "name31",
       "properties": {
@@ -833,6 +870,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 32,
       "name": "name32",
       "properties": {
@@ -859,6 +897,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 33,
       "name": "name33",
       "properties": {
@@ -885,6 +924,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 34,
       "name": "name34",
       "properties": {
@@ -911,6 +951,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 35,
       "name": "name35",
       "properties": {
@@ -937,6 +978,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 36,
       "name": "name36",
       "properties": {
@@ -963,6 +1005,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 37,
       "name": "name37",
       "properties": {
@@ -989,6 +1032,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 38,
       "name": "name38",
       "properties": {
@@ -1015,6 +1059,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 39,
       "name": "name39",
       "properties": {
@@ -1041,6 +1086,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 40,
       "name": "name40",
       "properties": {
@@ -1067,6 +1113,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 41,
       "name": "name41",
       "properties": {
@@ -1093,6 +1140,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 42,
       "name": "name42",
       "properties": {
@@ -1119,6 +1167,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 43,
       "name": "name43",
       "properties": {
@@ -1145,6 +1194,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 44,
       "name": "name44",
       "properties": {
@@ -1171,6 +1221,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 45,
       "name": "name45",
       "properties": {
@@ -1197,6 +1248,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 46,
       "name": "name46",
       "properties": {
@@ -1223,6 +1275,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 47,
       "name": "name47",
       "properties": {
@@ -1249,6 +1302,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 48,
       "name": "name48",
       "properties": {
@@ -1275,6 +1329,7 @@
       }
     },
     {
+      "img": "insertURLhere",
       "id": 49,
       "name": "name49",
       "properties": {
