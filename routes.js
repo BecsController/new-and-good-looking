@@ -1,20 +1,21 @@
 let express = require('express')
 let router = express.Router()
 let fs = require('fs')
+let tournament = require('./tournament-logic')
 //let fighters = require('./data.json')
 
 //home page
 router.get('/', (req, res) => {
-  res.render('home')
+  let playerArr = {}
+  playerArr.players = tournament.getCompetitors();
+  res.render('home', playerArr)
 })
-//grab user input to begin
-router.post('/', (req, res) => {
 
-  res.redirect('/fight')
-})
 //fight page
 router.get('/fight', (req, res) => {
-  res.render('fight')
+  let currentPlayers = {}
+  currentPlayers.players = tournament.getNextCompetitors();
+  res.render('fight', currentPlayers)
 })
 
 //sending winner information for refresh
