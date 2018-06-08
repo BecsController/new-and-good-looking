@@ -6,7 +6,7 @@ const server = express()
 
 // Middleware
 server.engine('hbs', hbs({
-  defaultLayout: 'main',
+  defaultLayout: 'default',
   extname: 'hbs'
 }))
 
