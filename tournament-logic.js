@@ -41,32 +41,33 @@ function overwriteData() {
 
 function getNextCompetitors() {
   refreshData()
+  let currentTier
   //  if there are games left at the first tier
-  if (tournamentState.tierOne.indexOf(0) >= 0) {
-    let currentMatch = tournamentState.tierOne.indexOf(0)
-    // console.log("Match index is: ",currentMatch);
+  if (tournamentState.tierOne.includes(0)) currentTier = tournamentState.tierOne
+  else if (tournamentState.tierTwo.inclues(0)) currentTier = tournamentState.tierTwo
+  else if (tournamentState.tierThree.includes(0)) currentTier = tournamentState.tierThree
 
-    let first = players.tierOne[currentMatch*2],
-        second = players.tierOne[currentMatch*2+1]
-    let harrison = [first, second]
-    // console.log(harrison[0].id, " ", harrison[1].id);
-    return harrison
-  }
-    // there are games left on the second tier
-  // } else if (tournamentState[1].find(e => e == 0)) {
-  //   let currentMatch = tournamentState[0].indexOf(0)
-  // }
+  let currentMatch = currentTier.indexOf(0)
+  // console.log("Match index is: ",currentMatch);
+
+  let first = players.tierOne[currentMatch*2],
+      second = players.tierOne[currentMatch*2+1]
+  let harrison = [first, second]
+  // console.log(harrison[0].id, " ", harrison[1].id);
+  return harrison
 }
 
 function doNextFight() {
   let harrison = getNextCompetitors()
   let {winner, clashes} = fightLogic.fight(harrison)
 
+  // alter tournamentState
+  if (winner == harrison[0])
+
   return {
     winner,
     clashes
   }
-  // alter tournamentState
 }
 
 
