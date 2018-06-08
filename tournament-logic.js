@@ -23,10 +23,10 @@ var allData,
     }
 
 
-refreshData()
-console.log(getCompetitors());
-// nextCompetitors = getNextCompetitors()
-doNextFight();
+// refreshData()
+// console.log(getCompetitors());
+// // nextCompetitors = getNextCompetitors()
+// doNextFight();
 
 function refreshData() {
   let raw = fs.readFileSync(dataPath)
@@ -40,6 +40,7 @@ function overwriteData() {
 }
 
 function getNextCompetitors() {
+  refreshData()
   //  if there are games left at the first tier
   if (tournamentState.tierOne.indexOf(0) >= 0) {
     let currentMatch = tournamentState.tierOne.indexOf(0)
@@ -60,9 +61,11 @@ function getNextCompetitors() {
 function doNextFight() {
   let harrison = getNextCompetitors()
   let {winner, clashes} = fightLogic.fight(harrison)
-  console.log(winner);
-  console.log(clashes);
 
+  return {
+    winner,
+    clashes
+  }
   // alter tournamentState
 }
 
