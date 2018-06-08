@@ -602,216 +602,216 @@
     {
       "img": "insertURLhere",
       "id": 22,
-      "name": "name22",
+      "name": "Queen Elizabeth",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Staying Power": [
+          9,
+          "65 years"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Secret keeping ability": [
+          7,
+          "Knows a lot says very little"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Handshake strength": [
+          4,
+          "Getting on in years now"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Military power": [
+          6,
+          "Can call the royal guard"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Net worth": [
+          8,
+          "Gets paid to be a figurehead, who can say?"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 23,
-      "name": "name23",
+      "name": "Queen's corgi",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Secret keeping ability": [
+          10,
+          "Even if wanted to tell, it couldn't"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Staring contests won": [
+          9,
+          "250 wins and counting"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Cuteness factor": [
+          10,
+          "It has stumpy legs!"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Appeal rating": [
+          7,
+          "Fluffy butt, nuff said"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Combined number of legs": [
+          2,
+          "4"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 24,
-      "name": "name24",
+      "name": "Donald Trump",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Handshake strength": [
+          10,
+          "Power at 9000"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Opinionatedness": [
+          9,
+          "Knows nothing, but has strong opinions"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Secret keeping ability": [
+          2,
+          "Tells everything to twitter"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Hand gesture usage": [
+          8,
+          "Can't speak without using his hands"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Repeating phrases": [
+          7,
+          "It's gunna be great, just great"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 25,
-      "name": "name25",
+      "name": "Jacinda Ardern",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Opinionatedness": [
+          8,
+          "Strongest attribute"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Smile radius": [
+          9,
+          "All the teeth"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Max Torque": [
+          6,
+          "Let's do this"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Reproductive abilities": [
+          9,
+          "Go Clarke!"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "General chirpiness": [
+          9,
+          "See smile radius"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 26,
-      "name": "name26",
+      "name": "Winston Peters",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Staying Power": [
+          7,
+          "40 years"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Opinionatedness": [
+          9,
+          "9/10"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "General shiftiness": [
+          8,
+          "Who knows what's going to happen when he's acting PM?"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Number of times named kingmaker": [
+          7,
+          "Higher than any other current politician"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Max Torque": [
+          8,
+          "Dark horse of the competition"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 27,
-      "name": "name27",
+      "name": "John Key",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Handshake strength": [
+          0,
+          "Gets rejected for handshakes"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Agility": [
+          5,
+          "Can dodge criticism pretty well"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Smile radius": [
+          3,
+          "Only when it gets him something"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Staying Power": [
+          7,
+          "More than one term, that's a bonus"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "General shiftiness": [
+          7,
+          "In competition with Winston Peters for top dog"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 28,
-      "name": "name28",
+      "name": "Mi Goreng",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Staring contests won": [
+          10,
+          "Has no eyes, never blinks"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Usefulness after societal breakdown": [
+          9,
+          "Everyone gets hungry"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Secret keeping ability": [
+          10,
+          "Even if wanted to tell, it couldn't"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Agility": [
+          0,
+          "Can't outrun you"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Max Torque": [
+          1,
+          "It ain't going anywhere"
         ]
       }
     },
     {
       "img": "insertURLhere",
       "id": 29,
-      "name": "name29",
+      "name": "Harrison",
       "properties": {
-        "dummy0": [
-          "strength",
-          "display"
+        "Usefulness after societal breakdown": [
+          10,
+          "Sarcasm level is high for comedic distraction"
         ],
-        "dummy1": [
-          "strength",
-          "display"
+        "Secret keeping ability": [
+          9,
+          "I feel he's hiding something"
         ],
-        "dummy2": [
-          "strength",
-          "display"
+        "Sarcasm level": [
+          10,
+          "Sitting at 2% sincerity"
         ],
-        "dummy3": [
-          "strength",
-          "display"
+        "Coding ability": [
+          10,
+          "Yep, I pulled down all the nothing"
         ],
-        "dummy4": [
-          "strength",
-          "display"
+        "Handshake strength": [
+          9,
+          "He's gunna take you out"
         ]
       }
     },
