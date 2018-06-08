@@ -16,7 +16,7 @@ router.get('/fight', (req, res) => {
   let currentPlayers = {}
   currentPlayers.players = tournament.getNextCompetitors();
   res.render('fight', currentPlayers)
-  console.log(currentPlayers)
+  // console.log(currentPlayers)
 })
 
 //sending winner information for refresh

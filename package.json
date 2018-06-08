@@ -6,8 +6,9 @@
   "author": "Rebecca Dugdale <bec.dugdale16@gmail.com>",
   "license": "MIT",
   "scripts": {
-  "debug": "nodemon --inspect index --ignore data.json"
-},
+    "debug": "nodemon --inspect index --ignore data.json",
+    "start": "node index"
+  },
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
