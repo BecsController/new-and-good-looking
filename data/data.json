@@ -365,7 +365,7 @@
           0,
           "0"
         ],
-        "Combined legs": [
+        "Combined number of legs": [
           4,
           "18",
         ],
@@ -377,7 +377,7 @@
           2,
           "30"
         ],
-        "Number of weetbix consumed in single sitting": [
+        "# of weetbix consumed in single sitting": [
           6,
           "54 weetbix"
         ]
@@ -535,7 +535,7 @@
           4,
           "47%"
         ],
-        "Number of weetbix consumed in single sitting": [
+        "# of weetbix consumed in single sitting": [
           10,
           "105 weetbix"
         ],
