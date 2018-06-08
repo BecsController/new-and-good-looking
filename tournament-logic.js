@@ -2,13 +2,14 @@ const path = require('path');
 const fs = require('fs');
 const fightLogic = require('./fight-logic.js');
 
-const dataPath = './testData/data.json'
+const dataPath = './data/data.json'
 
 //need methods for tournament, tier and fight
 //method to get tournament participants
 
 var allData,
     allIDS,
+    nextCompetitors,
     players = {
       tierOne: [],
       tierTwo: [],
@@ -22,9 +23,10 @@ var allData,
     }
 
 
-refreshData()
-console.log(getCompetitors());
-getNextCompetitors()
+// refreshData()
+// console.log(getCompetitors());
+// // nextCompetitors = getNextCompetitors()
+// doNextFight();
 
 function refreshData() {
   let raw = fs.readFileSync(dataPath)
@@ -38,6 +40,7 @@ function overwriteData() {
 }
 
 function getNextCompetitors() {
+  refreshData()
   //  if there are games left at the first tier
   if (tournamentState.tierOne.indexOf(0) >= 0) {
     let currentMatch = tournamentState.tierOne.indexOf(0)
@@ -57,8 +60,12 @@ function getNextCompetitors() {
 
 function doNextFight() {
   let harrison = getNextCompetitors()
-  let winner = fightLogic.fight(harrison)
+  let {winner, clashes} = fightLogic.fight(harrison)
 
+  return {
+    winner,
+    clashes
+  }
   // alter tournamentState
 }
 
