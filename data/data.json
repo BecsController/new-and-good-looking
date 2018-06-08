@@ -1,0 +1,1356 @@
+{
+  "players": [
+    {
+      "img": "insertURLhere",
+      "id": 0,
+      "name": "France",
+      "properties": {
+        "GDP": [
+          4,
+          "$2,835,000,000,000"
+        ],
+        "Monument": [
+          8,
+          "Eiffel Tower"
+        ],
+        "Famous Food/Drink": [
+          10,
+          "Cheese"
+        ],
+        "Nutjob Politician": [
+          8,
+          "Marine Le Pen"
+        ],
+        "Top Single": [
+          "2",
+          "Butterfly - Danyel Gerard"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 1,
+      "name": "USA",
+      "properties": {
+        "GDP": [
+          8,
+          "$19,390,000,000,000"
+        ],
+        "Monument": [
+          8,
+          "Statue of Liberty"
+        ],
+        "Famous Food/Drink": [
+          8,
+          "Hot Dogs"
+        ],
+        "Nutjob Politician": [
+          10,
+          "Donald J. Trump"
+        ],
+        "Top Single": [
+          7,
+          "White Christmas - Bing Crosby"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 2,
+      "name": "New Zealand",
+      "properties": {
+        "GDP": [
+          2,
+          "$198,520,000,000"
+        ],
+        "Monument": [
+          1,
+          "Sky Tower"
+        ],
+        "Famous Food/Drink": [
+          6,
+          "Kiwifruit"
+        ],
+        "Nutjob Politician": [
+          6,
+          "Winston Peters"
+        ],
+        "Top Single": [
+          10,
+          "How Bizarre - OMC"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 3,
+      "name": "Brazil",
+      "properties": {
+        "GDP": [
+          1,
+          "3,389,000,000"
+        ],
+        "Monument": [
+          8,
+          "Christo Redentor"
+        ],
+        "Famous Food/Drink": [
+          "6",
+          "Churrascaria"
+        ],
+        "Nutjob Politician": [
+          4,
+          "Dilma Rousseff"
+        ],
+        "Top Single": [
+          6,
+          "Girl from Ipanema - Tom Jobin"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 4,
+      "name": "Egypt",
+      "properties": {
+        "GDP": [
+          0,
+          "1,201,000,000"
+        ],
+        "Monument": [
+          10,
+          "Pyramid at Giza"
+        ],
+        "Famous Food/Drink": [
+          5,
+          "Fois Gras (?)"
+        ],
+        "Nutjob Politician": [
+          2,
+          "Tutenkhamun"
+        ],
+        "Top Single": [
+          6,
+          "The Bangles - Walk Like an Egyptian"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 5,
+      "name": "China",
+      "properties": {
+        "GDP": [
+          10,
+          "25,230,000,000,000"
+        ],
+        "Monument": [
+          10,
+          "The Great Wall"
+        ],
+        "Famous Food/Drink": [
+          8,
+          "All Chinese Food"
+        ],
+        "Nutjob Politician": [
+          10,
+          "Chairman Mao"
+        ],
+        "Top Single": [
+          7,
+          "Kung Fu Fighting - Carl Douglas"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 6,
+      "name": "United Kingdom",
+      "properties": {
+        "GDP": [
+          4,
+          "2,914,000,000,000"
+        ],
+        "Monument": [
+          6,
+          "Big Ben"
+        ],
+        "Famous Food/Drink": [
+          6,
+          "Tea"
+        ],
+        "Nutjob Politician": [
+          8,
+          "Nigel Farage"
+        ],
+        "Top Single": [
+          8,
+          "Candle In the Wind - Elton John (not the Beatles - I was surprised too)"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 7,
+      "name": "Japan",
+      "properties": {
+        "GDP": [
+          6,
+          "5,619,000,000,000"
+        ],
+        "Monument": [
+          9,
+          "Mount Fuji"
+        ],
+        "Famous Food/Drink": [
+          9,
+          "Sushi"
+        ],
+        "Nutjob Politician": [
+          3,
+          "Gendo Ikari"
+        ],
+        "Top Single": [
+          6,
+          "The Vapors - Turning Japanese"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 8,
+      "name": "India",
+      "properties": {
+        "GDP": [
+          "7",
+          "10,385,000,000,000"
+        ],
+        "Monument": [
+          8,
+          "Taj Mahal"
+        ],
+        "Famous Food/Drink": [
+          7,
+          "Korma"
+        ],
+        "Nutjob Politician": [
+          5,
+          "Ghandi's Evil Twin"
+        ],
+        "Top Single": [
+          5,
+          "Jai Ho - A.R. Rahman"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 9,
+      "name": "South Africa",
+      "properties": {
+        "GDP": [
+          3,
+          "$742,461,000,000"
+        ],
+        "Monument": [
+          2,
+          "The Memory of Nelson Mandela"
+        ],
+        "Famous Food/Drink": [
+          4,
+          "Biltong"
+          
+        ],
+        "Nutjob Politician": [
+          10,
+          "Everyone who was in favour of Apartheid"
+        ],
+        "Top Single": [
+          9,
+          "Africa - Toto"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 10,
+      "name": "name10",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 11,
+      "name": "name11",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 12,
+      "name": "name12",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 13,
+      "name": "name13",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 14,
+      "name": "name14",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 15,
+      "name": "name15",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 16,
+      "name": "name16",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 17,
+      "name": "name17",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 18,
+      "name": "name18",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 19,
+      "name": "name19",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 20,
+      "name": "name20",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 21,
+      "name": "name21",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 22,
+      "name": "name22",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 23,
+      "name": "name23",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 24,
+      "name": "name24",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 25,
+      "name": "name25",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 26,
+      "name": "name26",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 27,
+      "name": "name27",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 28,
+      "name": "name28",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 29,
+      "name": "name29",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 30,
+      "name": "name30",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 31,
+      "name": "name31",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 32,
+      "name": "name32",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 33,
+      "name": "name33",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 34,
+      "name": "name34",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 35,
+      "name": "name35",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 36,
+      "name": "name36",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 37,
+      "name": "name37",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 38,
+      "name": "name38",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 39,
+      "name": "name39",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 40,
+      "name": "name40",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 41,
+      "name": "name41",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 42,
+      "name": "name42",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 43,
+      "name": "name43",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 44,
+      "name": "name44",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 45,
+      "name": "name45",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 46,
+      "name": "name46",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 47,
+      "name": "name47",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 48,
+      "name": "name48",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    },
+    {
+      "img": "insertURLhere",
+      "id": 49,
+      "name": "name49",
+      "properties": {
+        "dummy0": [
+          "strength",
+          "display"
+        ],
+        "dummy1": [
+          "strength",
+          "display"
+        ],
+        "dummy2": [
+          "strength",
+          "display"
+        ],
+        "dummy3": [
+          "strength",
+          "display"
+        ],
+        "dummy4": [
+          "strength",
+          "display"
+        ]
+      }
+    }
+  ],
+  "properties": []
+}
