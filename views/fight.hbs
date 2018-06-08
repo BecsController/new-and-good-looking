@@ -17,7 +17,14 @@
         {{#each players}}
             <div class="six columns">
                 <img src="{{img}}">
+                <ul>
+                {{#each properties}}
+                <li>{{@key}}</li>
+                <li>{{this.[1]}}</li>
+                  {{/each}}
+                </ul>
             </div>
+            <div>
         {{/each}}
     </div>
 </div>
