@@ -357,7 +357,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/nzbobsled.jpg",
       "id": 13,
       "name": "New Zealand 1988 winter olympics Bob sled team",
       "properties": {
@@ -384,7 +384,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/arsenal.jpg",
       "id": 14,
       "name": "Arsenal",
       "properties": {
@@ -411,7 +411,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/Aliona-Savchenko-and-Bruno-Massot.jpg",
       "id": 15,
       "name": "Aljona Savchenko and Bruno Massot (ice skating)",
       "properties": {
@@ -438,7 +438,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/croatia.jpg",
       "id": 16,
       "name": "Croatian mens water polo team",
       "properties": {
@@ -465,7 +465,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/blackSticks.jpg",
       "id": 17,
       "name": "Black sticks womens hockey team",
       "properties": {
@@ -492,7 +492,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/dropped-baton.jpg",
       "id": 18,
       "name": "USA Olympic relay team",
       "properties": {
@@ -519,7 +519,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/blues.jpg",
       "id": 19,
       "name": "Blues super rugby",
       "properties": {
@@ -546,7 +546,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/west-indies.jpg",
       "id": 20,
       "name": "West indies cricket team",
       "properties": {
@@ -573,7 +573,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/sports/redsox.jpg",
       "id": 21,
       "name": "Red Sox baseball team",
       "properties": {
@@ -600,7 +600,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/queen.jpg",
       "id": 22,
       "name": "Queen Elizabeth",
       "properties": {
@@ -627,7 +627,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/corgi.jpg",
       "id": 23,
       "name": "Queen's corgi",
       "properties": {
@@ -654,7 +654,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/trump.jpg",
       "id": 24,
       "name": "Donald Trump",
       "properties": {
@@ -681,7 +681,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/cindy.jpg",
       "id": 25,
       "name": "Jacinda Ardern",
       "properties": {
@@ -708,7 +708,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/winston.jpg",
       "id": 26,
       "name": "Winston Peters",
       "properties": {
@@ -735,7 +735,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/john.jpg",
       "id": 27,
       "name": "John Key",
       "properties": {
@@ -762,7 +762,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/migoreng.jpg",
       "id": 28,
       "name": "Mi Goreng",
       "properties": {
@@ -789,7 +789,7 @@
       }
     },
     {
-      "img": "insertURLhere",
+      "img": "../images/players/politics/harrison.jpg",
       "id": 29,
       "name": "Harrison",
       "properties": {
