@@ -15,7 +15,8 @@ var allData,
       tierOne: [],
       tierTwo: [],
       tierThree: [],
-      winner: []
+      winner: [],
+      display: []
     },
     currentPlayers,
     nextRoundPlayers,
@@ -23,12 +24,13 @@ var allData,
       tierOne: [0, 0, 0, 0],
       tierTwo: [0, 0],
       tierThree: [0]
-    },
-    currentTier
+    }
+
+var currentTier = tournamentState.tierOne
 
 
 // refreshData()
-// console.log(getCompetitors());
+// console.log(newCompetitors());
 // getNextCompetitors()
 // doNextFight();
 // console.log(tournamentState);
@@ -47,13 +49,17 @@ function overwriteData() {
 function getNextCompetitorIndices() {
   refreshData()
 
+  console.log({currentTier});
+  console.log({tournamentState});
+  console.log({currentMatch});
+
   // get current tier
   if (tournamentState.tierOne.includes(0)) currentTier = tournamentState.tierOne
-  else if (tournamentState.tierTwo.inclues(0)) currentTier = tournamentState.tierTwo
+  else if (tournamentState.tierTwo.includes(0)) currentTier = tournamentState.tierTwo
   else if (tournamentState.tierThree.includes(0)) currentTier = tournamentState.tierThree
 
   currentMatch = currentTier.indexOf(0)
-  // console.log("Match index is: ",currentMatch);
+  console.log("Match index is: ",currentMatch);
 
   return [currentMatch*2, currentMatch*2 + 1]
 }
@@ -70,11 +76,26 @@ function getNextCompetitors() {
 }
 
 function doNextFight() {
-  let {winner, clashes} = fightLogic.fight(nextCompetitors)
+  currentMatch = currentTier.indexOf(0)
+
+  let {winner, clashes} = fightLogic.fight(nextCompetitors),
+      loser;
 
   // alter tournamentState
-  if (winner == nextCompetitors[0]) currentTier[currentMatch] = 1
-  else currentTier[currentMatch] = 2
+  if (winner == nextCompetitors[0]) {
+    console.log({currentTier, currentMatch});
+    currentTier[currentMatch] = 1
+    console.log({currentTier});
+    loser = nextCompetitors[1]
+  } else {
+    currentTier[currentMatch] = 2
+    loser = nextCompetitors[0]
+  }
+
+  // filter loser out of plaeyers to display
+  players.display = players.display.filter(player => {
+    return player.id != loser.id
+  })
 
   nextRoundPlayers.push(winner)
 
@@ -84,9 +105,13 @@ function doNextFight() {
   }
 }
 
-
-
 function getCompetitors() {
+  return players.display
+}
+
+
+
+function newCompetitors() {
   refreshData()
 
   let numToGrab = 8
@@ -97,6 +122,7 @@ function getCompetitors() {
   // load players into first tier
   players.tierOne = arrOfPlayers
   currentPlayers = arrOfPlayers // shallow coy
+  players.display = arrOfPlayers.slice()
 
 
   // clear later tiers
@@ -159,6 +185,7 @@ function tournament(competitors) {
 }
 
 module.exports = {
+  newCompetitors,
   getCompetitors,
   getNextCompetitors,
   doNextFight
