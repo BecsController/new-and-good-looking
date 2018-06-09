@@ -6,6 +6,12 @@ let tournament = require('./tournament-logic')
 
 //home page
 router.get('/', (req, res) => {
+  tournament.newCompetitors();
+  res.redirect('tournament')
+})
+
+//home page
+router.get('/tournament', (req, res) => {
   let playerArr = {}
   playerArr.players = tournament.getCompetitors();
   res.render('home', playerArr)
