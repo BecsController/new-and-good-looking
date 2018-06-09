@@ -81,12 +81,12 @@ function fight(harrison) {
 
   for (let key of twoKeys){
     if (unsharedValues.includes(key)){
-      console.log('Shared keys keys includes: ', key);
+      // console.log('Shared keys keys includes: ', key);
       unsharedValues.splice(unsharedValues.indexOf(key), 1)//removes shared value from array
       sharedValues.push(key) //adds to shared
       /*remove from unshared values, add to shared values*/
     } else {
-      console.log('unique key to two keys: ', key);
+      // console.log('unique key to two keys: ', key);
       unsharedValues.push(key)
       /*add key to unshared values*/
     }
@@ -105,19 +105,19 @@ function fight(harrison) {
 
   for (let key of sharedValues){
     if (one.properties[key][0] > two.properties[key][0]){
-      console.log(one.name, " beats ", two.name, " at ", key);
+      // console.log(one.name, " beats ", two.name, " at ", key);
       clashes.push({"property":key, "winner":one.name})
       oneScore++;
     } else if (one.properties[key][0] < two.properties[key][0]) {
-      console.log(two.name, " beats ", one.name, " at ", key);
+      // console.log(two.name, " beats ", one.name, " at ", key);
       clashes.push({"property":key, "winner":two.name})
       twoScore++;
     } else {
-      console.log("Its a draw on", key);
+      // console.log("Its a draw on", key);
     }
   }
 
-  console.log(clashes);
+  // console.log(clashes);
 
   //Seeks user input for every* unshared propery (may cap this later)
 
@@ -125,18 +125,18 @@ function fight(harrison) {
 
   //Return the winner
   if (oneScore > twoScore){
-    console.log(one.name, " wins!");
+    // console.log(one.name, " wins!");
     return {"winner":one, "clashes":clashes};
   } else if (oneScore < twoScore){
-    console.log(two.name, " wins!");
+    // console.log(two.name, " wins!");
     return {"winner":two, "clashes":clashes}
   } else {
     console.log("It's a draw, winner is a cointoss");
     if (Math.random <.5){
-      console.log(one.name, " wins!");
+      // console.log(one.name, " wins!");
       return {"winner":one, "clashes":clashes};
     } else {
-      console.log(two.name, " wins!");
+      // console.log(two.name, " wins!");
       return {"winner":two, "clashes":clashes}
     }
   }
