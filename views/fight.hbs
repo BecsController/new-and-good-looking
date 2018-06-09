@@ -1,21 +1,13 @@
-<div class="row fighters">
-    {{!-- <div class="offset-by-two"></div>
-        {{#each playerArr}}
-            <div class="one column thumbnail">
-                <img class="thumbnail-image" src="../images/{{playerArr.id}}.jpg">
-            </div>
-        {{/each}}
-    <div class="inset-by-two"></div> --}}
-    <div class="row">
+<div class="row no-gutters">
         {{#each players}}
-            <div class="six columns">
+            <div class="col-md">
                 <h1>{{name}}</h1>
             </div>
         {{/each}}
     </div>
-    <div class="row">
+    <div class="row no-gutters">
         {{#each players}}
-            <div class="six columns">
+            <div class="col-md">
                 <img src="{{img}}">
                 <ul>
                 {{#each properties}}
@@ -23,7 +15,8 @@
                   {{/each}}
                 </ul>
             </div>
-            <div>
         {{/each}}
     </div>
+    <div class="row no-gutters">
+    <a class="button button-primary" href="/">HOME</a>
 </div>

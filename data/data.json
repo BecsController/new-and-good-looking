@@ -519,7 +519,7 @@
       }
     },
     {
-      "img": "../images/players/sports/blues.jpg",
+      "img": "../public/images/players/sports/highlanders.jpg",
       "id": 19,
       "name": "Blues super rugby",
       "properties": {

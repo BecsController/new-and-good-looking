@@ -1,12 +1,43 @@
-.fighters {
-    margin-top: 60px;
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+.fighters-container{
+  width: 100%;
+  margin-left: -380px;
+  display: inline;
 }
 
 img {
   height: 300px;
-  width: 300px;
+  width: 400px;
+  align: center;
 }
 
+.fighters {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+
+h1 {
+  margin: 10 0 10 0;
+}
+
+ul {
+  margin: 10 0 10 0;
+}
 
 .inset-by-two.columns {
     margin-right: 17.3333333333%;
