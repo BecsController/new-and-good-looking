@@ -27,11 +27,11 @@ var allData,
     currentTier
 
 
-refreshData()
-console.log(getCompetitors());
-getNextCompetitors()
-doNextFight();
-console.log(tournamentState);
+// refreshData()
+// console.log(getCompetitors());
+// getNextCompetitors()
+// doNextFight();
+// console.log(tournamentState);
 
 function refreshData() {
   let raw = fs.readFileSync(dataPath)
@@ -160,5 +160,6 @@ function tournament(competitors) {
 
 module.exports = {
   getCompetitors,
-  getNextCompetitors
+  getNextCompetitors,
+  doNextFight
 }
