@@ -8,32 +8,24 @@ const dataPath = './data/data.json'
 //method to get tournament participants
 
 var allData,
-    allIDS,
-    nextCompetitors,
+    nextGamePlayers,
     currentMatch,
     players = {
-      tierOne: [],
-      tierTwo: [],
-      tierThree: [],
+      tiers: [],
       winner: [],
       display: []
     },
     currentPlayers,
     nextRoundPlayers,
-    tournamentState = {
-      tierOne: [0, 0, 0, 0],
-      tierTwo: [0, 0],
-      tierThree: [0]
-    }
-
-var currentTier = tournamentState.tierOne
+    tournamentRecord = [],
+    currentTier
 
 
 // refreshData()
 // console.log(newCompetitors());
 // getNextCompetitors()
 // doNextFight();
-// console.log(tournamentState);
+// console.log(tournamentRecord);
 
 function refreshData() {
   let raw = fs.readFileSync(dataPath)
@@ -46,21 +38,42 @@ function overwriteData() {
   console.log('writing data');
 }
 
+function refreshState() {
+  // reset game tracking numbers
+  currentTier = 0;
+  currentMatch = 0;
+
+  // loop through to find first uncompleted tier and game
+  while (currentTier < tournamentRecord.length) {
+    currentMatch = tournamentRecord[currentTier].indexOf(0)
+    // no unplayed game in this tier
+    if (currentMatch < 0) currentTier++
+    // otherwise we found an unplayed game
+    else break;
+  }
+  // time to create the next tier
+  if (currentMatch == -1) {
+    let currentTierSize = tournamentRecord[currentTier - 1].length
+    let nextTierSize = Math.floor(currentTierSize/2)
+    if (!nextTierSize) {
+      // we hav a winner
+    } else {
+      // still mroe to go, create next Tier and set match index to 0
+      tournamentRecord.push(Array(nextTierSize).fill(0))
+      currentMatch = 0
+
+      // update currentPlayers to point at the next round set
+      currentPlayers = nextRoundPlayers
+
+      // set up next tier to reciev winners
+      nextRoundPlayers = []
+      players.tiers.push(nextRoundPlayers)
+    }
+  }
+}
+
+
 function getNextCompetitorIndices() {
-  refreshData()
-
-  console.log({currentTier});
-  console.log({tournamentState});
-  console.log({currentMatch});
-
-  // get current tier
-  if (tournamentState.tierOne.includes(0)) currentTier = tournamentState.tierOne
-  else if (tournamentState.tierTwo.includes(0)) currentTier = tournamentState.tierTwo
-  else if (tournamentState.tierThree.includes(0)) currentTier = tournamentState.tierThree
-
-  currentMatch = currentTier.indexOf(0)
-  console.log("Match index is: ",currentMatch);
-
   return [currentMatch*2, currentMatch*2 + 1]
 }
 
@@ -69,27 +82,25 @@ function getPlayersFromIndices(indices) {
 }
 
 function getNextCompetitors() {
+  refreshState()
   let indices = getNextCompetitorIndices()
-  nextCompetitors = getPlayersFromIndices(indices)
-  // console.log(harrison[0].id, " ", harrison[1].id);
-  return nextCompetitors
+  nextGamePlayers = getPlayersFromIndices(indices)
+  return nextGamePlayers
 }
 
 function doNextFight() {
-  currentMatch = currentTier.indexOf(0)
+  getNextCompetitors()
 
-  let {winner, clashes} = fightLogic.fight(nextCompetitors),
+  let {winner, clashes} = fightLogic.fight(nextGamePlayers),
       loser;
 
-  // alter tournamentState
-  if (winner == nextCompetitors[0]) {
-    console.log({currentTier, currentMatch});
-    currentTier[currentMatch] = 1
-    console.log({currentTier});
-    loser = nextCompetitors[1]
+  // alter tournamentRecord
+  if (winner == nextGamePlayers[0]) {
+    tournamentRecord[currentTier][currentMatch] = 1
+    loser = nextGamePlayers[1]
   } else {
-    currentTier[currentMatch] = 2
-    loser = nextCompetitors[0]
+    tournamentRecord[currentTier][currentMatch] = 2
+    loser = nextGamePlayers[0]
   }
 
   // filter loser out of plaeyers to display
@@ -114,28 +125,25 @@ function getCompetitors() {
 function newCompetitors() {
   refreshData()
 
+  // number of players to get
   let numToGrab = 8
+  currentTier = 0
+
 
   let arrOfIDs = getIDs(8)
   let arrOfPlayers = getPlayersFromIDs(arrOfIDs)
 
+  // set up first arrya in tournament record to track results
+  tournamentRecord.push(Array(numToGrab/2).fill(0))
+
   // load players into first tier
-  players.tierOne = arrOfPlayers
-  currentPlayers = arrOfPlayers // shallow coy
+  players.tiers.push(arrOfPlayers)
+  currentPlayers = arrOfPlayers.slice()
   players.display = arrOfPlayers.slice()
 
-
-  // clear later tiers
-  players.tierTwo = []
-  players.tierThree = []
-  players.winner = []
-
-  // clear tournamentState
-  tournamentState.tierOne = [0, 0, 0, 0]
-  tournamentState.tierTwo = [0, 0]
-  tournamentState.tierOne = [0]
-
-  nextRoundPlayers = players.tierTwo
+  // prepare next empty tier
+  nextRoundPlayers = []
+  players.tiers.push(nextRoundPlayers)
 
   return arrOfPlayers
 
@@ -144,7 +152,6 @@ function newCompetitors() {
     let totalPlayers = allData.players.length;
     for (var i = 0; playerIDs.length < numToGrab; i++) {
       let newID = getRandomIndexUpTo(totalPlayers)
-      // console.log(newID);
       if (!playerIDs.includes(newID)) playerIDs.push(newID)
     }
     return playerIDs
@@ -174,7 +181,7 @@ function tournament(competitors) {
     for (var i = 0; i < half; i++) {
       let one = competitors[i]
       let two = competitors[i + half]
-      let winner = fight-logic.fight(one, two)
+      let winner = fightLogic.fight(one, two)
       nextTier.push(winner);
     }
   }
