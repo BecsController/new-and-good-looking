@@ -10,8 +10,6 @@ const dataPath = './data/data.json'
 var allData,
     allIDS,
     nextCompetitors,
-    currentTier,
-    currentPlayers,
     currentMatch,
     players = {
       tierOne: [],
@@ -19,11 +17,14 @@ var allData,
       tierThree: [],
       winner: []
     },
+    currentPlayers,
+    nextRoundPlayers,
     tournamentState = {
       tierOne: [0, 0, 0, 0],
       tierTwo: [0, 0],
       tierThree: [0]
-    }
+    },
+    currentTier
 
 
 refreshData()
@@ -75,6 +76,8 @@ function doNextFight() {
   if (winner == nextCompetitors[0]) currentTier[currentMatch] = 1
   else currentTier[currentMatch] = 2
 
+  nextRoundPlayers.push(winner)
+
   return {
     winner,
     clashes
@@ -91,8 +94,22 @@ function getCompetitors() {
   let arrOfIDs = getIDs(8)
   let arrOfPlayers = getPlayersFromIDs(arrOfIDs)
 
+  // load players into first tier
   players.tierOne = arrOfPlayers
   currentPlayers = arrOfPlayers // shallow coy
+
+
+  // clear later tiers
+  players.tierTwo = []
+  players.tierThree = []
+  players.winner = []
+
+  // clear tournamentState
+  tournamentState.tierOne = [0, 0, 0, 0]
+  tournamentState.tierTwo = [0, 0]
+  tournamentState.tierOne = [0]
+
+  nextRoundPlayers = players.tierTwo
 
   return arrOfPlayers
 
