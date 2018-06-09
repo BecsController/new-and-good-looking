@@ -21,9 +21,9 @@ router.get('/fight', (req, res) => {
 
 //sending winner information for refresh
 router.post('/fight', (req, res) => {
-  //winner info
-  writeBackTOJson()
-  res.redirect('/') //back to fight
+  // as long as the fight wasn't played out, we can call this function multiple times and get
+  // the same players back
+  res.redirect('/winner') //back to fight
 })
 
 //final fight view
@@ -33,7 +33,8 @@ router.get('/finalFight', (req, res) => {
 
 //display final winner
 router.get('/winner', (req, res) => {
-  res.render('winner')
+  let results = tournament.doNextFight()
+  res.render('winner', results)
 })
 
 //after finished, writing new information set back to data file
