@@ -126,11 +126,11 @@ function newCompetitors() {
   refreshData()
 
   // number of players to get
-  let numToGrab = 8
+  let numToGrab = 16
   currentTier = 0
 
 
-  let arrOfIDs = getIDs(8)
+  let arrOfIDs = getIDs(numToGrab)
   let arrOfPlayers = getPlayersFromIDs(arrOfIDs)
 
   // set up first arrya in tournament record to track results
