@@ -131,7 +131,7 @@ function fight(harrison) {
     // console.log(two.name, " wins!");
     return {"winner":two, "clashes":clashes}
   } else {
-    console.log("It's a draw, winner is a cointoss");
+    // console.log("It's a draw, winner is a cointoss");
     if (Math.random <.5){
       // console.log(one.name, " wins!");
       return {"winner":one, "clashes":clashes};

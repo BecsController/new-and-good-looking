@@ -12,7 +12,7 @@ var allData,
     currentMatch,
     players = {
       tiers: [],
-      winner: [],
+      winner: {},
       display: []
     },
     currentPlayers,
@@ -51,12 +51,14 @@ function refreshState() {
     // otherwise we found an unplayed game
     else break;
   }
-  // time to create the next tier
+  // is it time to create the next tier
   if (currentMatch == -1) {
     let currentTierSize = tournamentRecord[currentTier - 1].length
     let nextTierSize = Math.floor(currentTierSize/2)
+
     if (!nextTierSize) {
       // we hav a winner
+      players.winner
     } else {
       // still mroe to go, create next Tier and set match index to 0
       tournamentRecord.push(Array(nextTierSize).fill(0))
@@ -132,6 +134,11 @@ function newCompetitors() {
 
   let arrOfIDs = getIDs(numToGrab)
   let arrOfPlayers = getPlayersFromIDs(arrOfIDs)
+
+  tournamentRecord = []
+  players.tiers = []
+  players.display = []
+  players.winner = {}
 
   // set up first arrya in tournament record to track results
   tournamentRecord.push(Array(numToGrab/2).fill(0))
