@@ -1,23 +1,30 @@
 <div class="row fighters">
-    {{!-- <div class="offset-by-two"></div>
-        {{#each playerArr}}
-            <div class="one column thumbnail">
-                <img class="thumbnail-image" src="../images/{{playerArr.id}}.jpg"> 
-            </div>
-        {{/each}}
-    <div class="inset-by-two"></div> --}}
-    <div class="row">
-        {{#each players}}
-            <div class="six columns">
-                <h1>{{name}}</h1>
-            </div>
-        {{/each}}
-    </div>
-    <div class="row">
-        {{#each players}}
-            <div class="six columns">
-                <img src="/images/players_edited/0{{id}}.jpg">
-            </div>
+    <div class="eight columns offset-by-two inset-by-two">
+        {{#each playerArr.players}}
+            <img class="thumbnail-image" src="/images/players_edited/0{{id}}.jpg"> 
         {{/each}}
     </div>
 </div>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<div class="row">
+    {{#each currentPlayers.players}}
+        <div class="six columns">
+            <h3 class="center">{{name}}</h3>
+        </div>
+    {{/each}}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+    {{#each currentPlayers.players}}
+        <div class="six columns">
+            <img class="fighter-image" src="/images/players_edited/0{{id}}.jpg">
+        </div>
+    {{/each}}
+</div>
+

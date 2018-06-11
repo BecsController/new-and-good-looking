@@ -6,6 +6,9 @@
     padding-top: 20px;
 }
 
+.fighter-image {
+    width: 100%;
+}
 
 
 .center {
@@ -18,13 +21,8 @@
     margin-right: 17.3333333333%; 
   }
 
-.thumbnail {
-    width: 50px;
-    height: 50px;   
-}
-
 .thumbnail-image {
-    max-width: 100%;
+    width: 70px;
 }
 
 .spacer {

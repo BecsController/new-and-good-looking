@@ -4,9 +4,11 @@ let fs = require('fs')
 let tournament = require('./tournament-logic')
 //let fighters = require('./data.json')
 
+let playerArr;
+
 //home page
 router.get('/', (req, res) => {
-  let playerArr = {}
+  playerArr = {}
   playerArr.players = tournament.getCompetitors();
   res.render('home', playerArr)
 })
@@ -15,8 +17,12 @@ router.get('/', (req, res) => {
 router.get('/fight', (req, res) => {
   let currentPlayers = {}
   currentPlayers.players = tournament.getNextCompetitors();
-  res.render('fight', currentPlayers)
-  console.log(currentPlayers)
+  let viewData = {
+    playerArr: playerArr,
+    currentPlayers: currentPlayers
+  }
+  res.render('fight', viewData)
+  console.log(viewData)
 })
 
 //sending winner information for refresh
