@@ -1,9 +1,18 @@
-.fighters {
+.container {
     margin-top: 60px;
+}
+
+.main-image {
+    padding-top: 20px;
 }
 
 
 
+.center {
+    margin: auto;
+    display: block;
+    text-align: center
+}
 
 .inset-by-two.columns {
     margin-right: 17.3333333333%; 
@@ -17,3 +26,12 @@
 .thumbnail-image {
     max-width: 100%;
 }
+
+.spacer {
+    height: 15px;
+}
+
+.main-button {
+    width: 140px;
+}
+
