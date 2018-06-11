@@ -128,7 +128,7 @@ function newCompetitors() {
   refreshData()
 
   // number of players to get
-  let numToGrab = 16
+  let numToGrab = 8
   currentTier = 0
 
 
