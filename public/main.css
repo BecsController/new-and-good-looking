@@ -1,5 +1,5 @@
 .container {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .main-image {
@@ -9,7 +9,6 @@
 .fighter-image {
     width: 100%;
 }
-
 
 .center {
     margin: auto;
@@ -33,3 +32,17 @@
     width: 140px;
 }
 
+.proplist {
+    margin-top: 5px;
+}
+
+
+.proplist li {
+    /* padding-bottom: 3px; */
+    margin-bottom: 4px;
+    
+}
+
+hr {
+    margin: 10px 0 40px 0;
+}

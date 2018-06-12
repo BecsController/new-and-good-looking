@@ -24,7 +24,29 @@
     {{#each currentPlayers.players}}
         <div class="six columns">
             <img class="fighter-image" src="/images/players_edited/0{{id}}.jpg">
+            <ul class="proplist">
+                {{#each properties}}
+                    <li><b>{{@key}}:</b> {{this.[1]}}</li>
+                {{/each}}
+            </ul>
         </div>
     {{/each}}
 </div>
+<hr>
 
+<div class="row">
+    <div class="twelve columns">
+        <h4 class="center">Who wins??</h4>
+        <form action="/fight" method="post">
+            {{#each currentPlayers.unMatchedProps}}
+                Who beats who at {{@index}}? 
+                <input type="radio" name="{{@index}}" value="{{fightername1using../contextshift}}"> {{fightername1using../contextshift}}
+                <input type="radio" name="{{@index}}" value="{{fightername2using../contextshift}}"> {{fightername2using../contextshift}}
+            {{/each}}
+        </form>
+    </div>
+</div>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
