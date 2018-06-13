@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 router.get('/fight', (req, res) => {
   let currentPlayers = {}
   currentPlayers.players = tournament.getNextCompetitors();
-  console.log(currentPlayers.players)
+  // console.log(currentPlayers.players)
   let viewData = {
     playerArr: playerArr,
     currentPlayers: currentPlayers

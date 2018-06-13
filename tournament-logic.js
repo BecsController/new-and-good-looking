@@ -36,7 +36,7 @@ function refreshData() {
 function overwriteData() {
   let stringified = JSON.stringify(allData, null, 2)
   fs.writeFileSync(dataPath, stringified)
-  console.log('writing data');
+  // console.log('writing data');
 }
 
 function getNextCompetitors() {
@@ -76,7 +76,7 @@ function getCompetitors() {
 
   let numToGrab = 8
 
-  let arrOfIDs = getIDs(8)
+  let arrOfIDs = getIDs(numToGrab)
   let arrOfPlayers = getPlayersFromIDs(arrOfIDs)
 
   players.tierOne = arrOfPlayers

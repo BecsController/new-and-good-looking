@@ -22,7 +22,7 @@
           "Marine Le Pen"
         ],
         "Top Single": [
-          "2",
+          2,
           "Butterfly - Danyel Gerard"
         ]
       }
@@ -95,7 +95,7 @@
           "Christo Redentor"
         ],
         "Famous Food/Drink": [
-          "6",
+          6,
           "Churrascaria"
         ],
         "Nutjob Politician": [
@@ -222,7 +222,7 @@
       "name": "India",
       "properties": {
         "GDP": [
-          "7",
+          7,
           "10,385,000,000,000"
         ],
         "Monument": [
@@ -259,7 +259,6 @@
         "Famous Food/Drink": [
           4,
           "Biltong"
-
         ],
         "Nutjob Politician": [
           10,

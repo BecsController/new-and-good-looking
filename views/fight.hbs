@@ -1,7 +1,7 @@
 <div class="row fighters">
     <div class="eight columns offset-by-two inset-by-two">
         {{#each playerArr.players}}
-            <img class="thumbnail-image" src="/images/players_edited/0{{id}}.jpg"> 
+            <img class="thumbnail-image" src="/images/players_edited/{{id}}.jpg"> 
         {{/each}}
     </div>
 </div>
@@ -13,7 +13,7 @@
 <div class="row">
     {{#each currentPlayers.players}}
         <div class="six columns">
-            <h3 class="center">{{name}}</h3>
+            <h4 class="center">{{name}}</h4>
         </div>
     {{/each}}
 </div>
@@ -23,7 +23,7 @@
 <div class="row">
     {{#each currentPlayers.players}}
         <div class="six columns">
-            <img class="fighter-image" src="/images/players_edited/0{{id}}.jpg">
+            <img class="fighter-image" src="/images/players_edited/{{id}}.jpg">
             <ul class="proplist">
                 {{#each properties}}
                     <li><b>{{@key}}:</b> {{this.[1]}}</li>
@@ -32,11 +32,10 @@
         </div>
     {{/each}}
 </div>
-<hr>
 
 <div class="row">
     <div class="twelve columns">
-        <h4 class="center">Who wins??</h4>
+        <h6 class="center">Who wins??</h6>
         <form action="/fight" method="post">
             {{#each currentPlayers.unMatchedProps}}
                 Who beats who at {{@index}}? 
